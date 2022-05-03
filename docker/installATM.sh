@@ -28,3 +28,5 @@ then
 	docker run -d --privileged \
 		   -v /data  	\
 		   --name atm-service-${prj.version}	\
+
+docker exec -t atm-service-${prj.version}
